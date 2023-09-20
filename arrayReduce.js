@@ -15,11 +15,9 @@ const people = [
     occupation: 'Electrician'
   }
 ];
-// filter out people under the age of 30 
-// the parameter can be anyname u want 
-const overThirty = people.filter(person => {
-return person.age > 30;
-});
 
-console.log(overThirty);
+const totalAge = people.reduce((total , person ) => {
+ return total + person.age;
+}, 0); // setting an intital value so the total starts at 0
+console.log(totalAge);
 
