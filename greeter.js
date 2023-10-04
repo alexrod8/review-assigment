@@ -9,5 +9,9 @@ const greeting = (name) => {
   console.log('Good Evening, ' + name);
 }
 
+ const getLastname = (lastName) => {
+  
+ }
+
 
 greeting('Victor')
