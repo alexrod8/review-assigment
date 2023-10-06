@@ -12,7 +12,7 @@ function entryPoint(param) {
   stack1(param)
 }
 
-let param = 'DEIVID';
+var param = 'DEIVID';
 
 entryPoint(param);
 console.log('Main: ', param);
